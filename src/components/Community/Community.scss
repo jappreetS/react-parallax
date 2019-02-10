@@ -6,5 +6,13 @@ $root: '.community';
   &-container {
     height: 100vh;
     background-color: red;
+    padding-top: 200px;
+  }
+
+  &-food-section {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-color: green;
   }
 }
