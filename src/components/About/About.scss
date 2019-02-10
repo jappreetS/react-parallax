@@ -1,0 +1,10 @@
+@import './../../global/styles/common.scss';
+
+$root: '.about';
+
+#{$root} {
+  &-container {
+    height: 100vh;
+    background-color: aquamarine;
+  }
+}
