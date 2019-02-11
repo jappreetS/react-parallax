@@ -4,15 +4,33 @@ $root: '.community';
 
 #{$root} {
   &-container {
-    height: 100vh;
     background-color: red;
-    padding-top: 200px;
+    padding-top: 140px;
+    padding: 5% 10% 10% 10%;
+  }
+
+  &-description {
+    height: 300px;
+    width: 40%;
+    z-index: 1;
+    background-color: #0f0;
+    position: absolute;
   }
 
   &-food-section {
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    background-color: green;
+    &-1, &-2, &-3 {
+      width: 100%;
+      height: 300px;
+    }
+    &-1 {
+      margin-top: 80px;
+      background-color: #fff;
+    }
+    &-2 {
+      background-color: #00f;
+    }
+    &-3 {
+      background-color: #ff0;
+    }
   }
 }
