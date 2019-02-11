@@ -5,7 +5,7 @@ import './Navbar.scss';
 class Navbar extends Component {
   render() {
     return (
-      <nav id="navbar-container" className="navbar-container">
+      <nav id="navbar-container" className="navbar-container text-uppercase">
         <ul>
           <li className="logo">Logo</li>
           <li>About</li>

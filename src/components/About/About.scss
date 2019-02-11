@@ -5,6 +5,29 @@ $root: '.about';
 #{$root} {
   &-container {
     height: 100vh;
-    background-color: aquamarine;
+    background-image: url("./../../assets/images/bg-pic.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    
+    .line {
+      max-width: 30%;
+      &-1 {
+        font-size: 75px;
+        margin-bottom: -20px;
+      }
+      &-2 {
+        font-size: 105px;
+        margin-bottom: -20px;
+      }
+      &-3 {
+        font-size: 38px;
+      }
+    }
   }
 }
