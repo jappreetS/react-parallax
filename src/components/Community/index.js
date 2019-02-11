@@ -7,7 +7,7 @@ class Community extends Component {
     return (
       <div id="community" className="community-container">
         <div className="community-description">
-          <div className="community-description__container text-uppercase">
+          <div className="community-description__container text-uppercase col-6">
             <div className="title">Meet our</div>
             <div className="title strike">Community</div>
             <button className="know-more">Know More</button>
