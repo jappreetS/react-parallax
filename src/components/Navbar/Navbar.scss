@@ -22,6 +22,11 @@ $root: '.navbar';
         padding: 25px;
       }
 
+      li a {
+        text-decoration: none;
+        color: #333;
+      }
+
       .logo {
         font-size: 30px;
         padding: 18px 30px;
