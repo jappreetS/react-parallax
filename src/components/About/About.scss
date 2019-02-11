@@ -15,6 +15,12 @@ $root: '.about';
     flex-direction: column;
     color: #fff;
     
+    .stamp {
+      position: absolute;
+      top: 15%;
+      left: 20%;
+    }
+
     .line {
       max-width: 30%;
       &-1 {
