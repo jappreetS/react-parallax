@@ -6,7 +6,16 @@ class Community extends Component {
   render() {
     return (
       <div id="community" className="community-container">
-        <div className="community-description" />
+        <div className="community-description">
+          <div className="community-description__container text-uppercase">
+            <div className="title">Meet our</div>
+            <div className="title strike">Community</div>
+            <button className="know-more">Know More</button>
+            <div className="details">
+              Lorem ipsum dolor sit amet ernut tempartero sertu per nabore en torna entalto
+            </div>
+          </div>
+        </div>
         <div data-aos="slide-up"
           data-aos-anchor-placement="top-bottom"
           data-aos-duration="1000"
