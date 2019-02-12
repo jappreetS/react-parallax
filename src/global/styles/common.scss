@@ -3,6 +3,11 @@
   src: local('DIN Condensed Bold'), url('./../../assets/fonts/DINCondensed-Bold.ttf') format('woff');
 }
 
+@font-face {
+  font-family: 'Gill Sans';
+  src: local('Gill Sans'), url('./../../assets/fonts/GillSans.ttc') format('woff');
+}
+
 body {
   margin: 0;
   color: #333;
@@ -26,4 +31,8 @@ body {
 
 .col-3 {
   width: 25%;
+}
+
+.display-flex {
+  display: flex;
 }

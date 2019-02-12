@@ -4,22 +4,19 @@ $root: '.community';
 
 #{$root} {
   &-container {
-    background-color: red;
     padding-top: 140px;
     padding: 5% 10% 10%;
   }
 
   &-description {
-    position: absolute;
-    z-index: 1;
     height: 300px;
-    width: 40%;
     background-color: #fff;
     font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+    display: flex;
+    justify-content: flex-end;
 
     &__container {
       height: 100%;
-      float: right;
       padding: 10px 5px 0;
       
       .title {
@@ -36,19 +33,236 @@ $root: '.community';
   }
 
   &-food-section {
-    &-1, &-2, &-3 {
-      width: 100%;
+    &-1, &-2, &-3, &-2-about {
       height: 300px;
     }
+    // food-section-1
     &-1 {
       margin-top: 80px;
       background-color: #fff;
+      background-image:
+      url('./../../assets/images/bg-detail.png'),
+      url('./../../assets/images/detail01.png');
+      background-repeat: no-repeat;
+      background-position: bottom 5px left 46.5%, bottom 10px right 0;
+
+      .sub-section {
+        &-container {
+          display: flex;
+          height: 100%;
+          width: 100%;
+        }
+
+        &-1 {
+          background-image: url('./../../assets/images/food-1.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-color: #fff;
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          position: relative;
+
+          img {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+          }
+        }
+        &-2 {
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          background-color: #fff;
+          position: relative;
+        }
+
+        &-title {
+          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+          font-size: 22px;
+          padding: 10px 5px;
+        }
+        
+        &-description, &-tag {
+          font-family: 'Gill Sans', 'roboto', sans-serif;
+          color: #5a5a5a;
+          font-size: 14px;
+          padding: 2px 5px;
+        }
+      }
     }
+
+    // food-section-2
     &-2 {
-      background-color: #00f;
+      background-color: #fff;
+      background-image: url('./../../assets/images/detail03.png');
+      background-repeat: no-repeat;
+      background-position: bottom 5px left 15%;
+
+      .sub-section {
+        &-container {
+          display: flex;
+          height: 100%;
+          width: 100%;
+        }
+
+        &-1 {
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          background-color: #fff;
+          position: relative;
+        }
+
+        &-title {
+          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+          font-size: 22px;
+          padding: 10px 5px;
+        }
+        
+        &-description, &-tag {
+          font-family: 'Gill Sans', 'roboto', sans-serif;
+          color: #5a5a5a;
+          font-size: 14px;
+          padding: 2px 5px;
+        }
+
+        &-2 {
+          background-image: url('./../../assets/images/food-2.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-color: #fff;
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          position: relative;
+
+          img {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+          }
+        }
+      }
     }
+
+    // food-section-2-about
+    &-2-about {
+      background-color: #fff;
+      font-family: 'Gill Sans', 'roboto', sans-serif;
+      
+      .about {
+        padding: 35% 6%;
+        color: #5a5a5a;
+        max-width: 74%;
+        font-size: 15px;
+      }
+    }
+
+    // food-section-3-about
+    &-3-about {
+      background-color: #fff;
+      font-family: 'Gill Sans', 'roboto', sans-serif;
+
+      .about {
+        padding: 35% 6%;
+        color: #5a5a5a;
+        max-width: 74%;
+        font-size: 15px;
+      }
+    }
+
+    // food-section-3
     &-3 {
-      background-color: #ff0;
+      background-color: #fff;
+      background-repeat: no-repeat;
+      background-position: bottom 5px left 15%;
+
+      .sub-section {
+        &-container {
+          display: flex;
+          height: 100%;
+          width: 100%;
+        }
+
+        &-2 {
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          background-color: #fff;
+          position: relative;
+        }
+
+        &-title {
+          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+          font-size: 22px;
+          padding: 10px 5px;
+        }
+        
+        &-description, &-tag {
+          font-family: 'Gill Sans', 'roboto', sans-serif;
+          color: #5a5a5a;
+          font-size: 14px;
+          padding: 2px 5px;
+        }
+
+        &-3 {
+          background-image: url('./../../assets/images/food-3.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-color: #fff;
+          height: 70%;
+          width: 45%;
+          margin: 5% 3%;
+          border: 15px solid #fff;
+          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
+          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
+          position: relative;
+
+          img {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+          }
+        }
+      }
     }
+  }
+}
+
+.feedback {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  display: flex;
+  justify-content: space-between;
+
+  .action {
+    display: flex;
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 5px;
+    }  
+  }
+  &-number {
+    font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+    font-size: 15px
   }
 }
