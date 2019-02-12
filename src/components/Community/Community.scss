@@ -6,6 +6,12 @@ $root: '.community';
   &-container {
     padding-top: 140px;
     padding: 5% 10% 10%;
+
+    .row {
+      &-2, &-3 {
+        margin-top: -35px;
+      }
+    }
   }
 
   &-description {
@@ -35,7 +41,7 @@ $root: '.community';
     &-1, &-2, &-3 {
       height: 300px;
     }
-    
+
     // food-section-1
     &-1 {
       margin-top: 80px;

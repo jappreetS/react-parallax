@@ -19,7 +19,7 @@ class Community extends Component {
   render() {
     return (
       <div id="community" className="community-container">
-        <div className="col-12 display-flex" >
+        <div className="row-1 col-12 display-flex" >
           <div className="community-description col-6">
             <div className="community-description__container text-uppercase col-6">
               <Label classNames="title" text="Meet our" />
@@ -61,7 +61,7 @@ class Community extends Component {
             </div>
           </div>
         </div>
-        <div className="col-12 display-flex">
+        <div className="row-2 col-12 display-flex">
           <div
             data-aos="slide-up"
             data-aos-anchor-placement="top-bottom"
@@ -108,7 +108,7 @@ class Community extends Component {
             </div>
           </div>
         </div>
-        <div className="col-12 display-flex">
+        <div className="row-3 col-12 display-flex">
           <div
             data-aos="slide-up"
             data-aos-anchor-placement="top-bottom"
