@@ -1,0 +1,15 @@
+.strike {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  
+  &::before {
+    content: '';
+    border-bottom: 6px solid #fddbc6;
+    width: 115%;
+    position: absolute;
+    right: -15px;
+    top: 34%;
+    z-index: -1;
+  }
+}
