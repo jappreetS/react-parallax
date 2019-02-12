@@ -4,6 +4,7 @@ import Button from '../../elements/Button';
 import Label from '../../elements/Label';
 import ImageCard from '../../elements/ImageCard';
 import PostDetail from '../../elements/PostDetail';
+import AboutRecipe from '../../elements/AboutRecipe';
 
 import food1 from './../../assets/images/food-1.jpg';
 import food2 from './../../assets/images/food-2.jpg';
@@ -48,7 +49,7 @@ class Community extends Component {
               <PostDetail
                 postTitleText="@buzzfeedfood"
                 postDescriptionText="It's taco Tuesday! These tacos from @jesseszewczyk have no
-                  added sugars and are SO good. Find the recipe from the link in our bio! :"
+                added sugars and are SO good. Find the recipe from the link in our bio! :"
                 postTagText="@taylormillerphoto"
                 commentAltText="comment"
                 commentIconSrc={comment}
@@ -97,16 +98,13 @@ class Community extends Component {
             className="community-food-section-2-about col-6"
           >
             <div className="sub-section-container col-6">
-              <div className="sub-section-3">
-                <Label
-                  classNames="about"
-                  text="Ut enim ad minim veniam, quis
-                  nostrud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo consequat.
-                  Duis aute irure dolor in reprehenderit in
-                  voluptate velit esse cillum dolore"
-                />
-              </div>
+              <AboutRecipe
+                aboutRecipeText="Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+                Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore"
+              />
             </div>
           </div>
         </div>
@@ -119,15 +117,12 @@ class Community extends Component {
             className="community-food-section-3-about col-6"
           >
             <div className="sub-section-container col-6">
-              <div className="sub-section-1">
-                <Label
-                  classNames="about"
-                  text="Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit, sed do
-                  eiusmod tempor incididunt ut labore
-                  et dolore magna aliqua. Duis aute irure"
-                />
-              </div>
+              <AboutRecipe
+                aboutRecipeText="Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Duis aute irure"
+              />
             </div>
           </div>
           <div
