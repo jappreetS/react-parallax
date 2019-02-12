@@ -53,25 +53,6 @@ $root: '.community';
           width: 100%;
         }
 
-        &-1 {
-          background-image: url('./../../assets/images/food-1.jpg');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-color: #fff;
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          position: relative;
-
-          img {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-          }
-        }
         &-2 {
           height: 70%;
           width: 45%;
@@ -134,26 +115,6 @@ $root: '.community';
           color: #5a5a5a;
           font-size: 14px;
           padding: 2px 5px;
-        }
-
-        &-2 {
-          background-image: url('./../../assets/images/food-2.jpg');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-color: #fff;
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          position: relative;
-
-          img {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-          }
         }
       }
     }
@@ -219,26 +180,6 @@ $root: '.community';
           color: #5a5a5a;
           font-size: 14px;
           padding: 2px 5px;
-        }
-
-        &-3 {
-          background-image: url('./../../assets/images/food-3.jpg');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-color: #fff;
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          position: relative;
-
-          img {
-            position: absolute;
-            top: -15px;
-            right: -15px;
-          }
         }
       }
     }

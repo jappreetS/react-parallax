@@ -2,8 +2,12 @@ import React, { Component } from 'react';
 
 import Button from '../../elements/Button';
 import Label from '../../elements/Label';
+import ImageCard from '../../elements/ImageCard';
 import SocialActions from '../../elements/SocialActions';
 
+import food1 from './../../assets/images/food-1.jpg';
+import food2 from './../../assets/images/food-2.jpg';
+import food3 from './../../assets/images/food-3.jpg';
 import instagram from './../../assets/images/instagram-btn.png';
 import comment from './../../assets/images/comment.svg';
 import like from './../../assets/images/like.svg';
@@ -35,9 +39,12 @@ class Community extends Component {
             className="community-food-section-1 col-6"
           >
             <div className="sub-section-container">
-              <div className="sub-section-1">
-                <img alt="insta" src={instagram} />
-              </div>
+              <ImageCard
+                bgImage={food1}
+                imgBtnAltText="instagram"
+                imgBtnSrc={instagram}
+                showImgBtn
+              />
               <div className="sub-section-2">
                 <Label
                   classNames="sub-section-title"
@@ -104,9 +111,12 @@ class Community extends Component {
                   />
                 </div>
               </div>
-              <div className="sub-section-2">
-                <img alt="insta" src={instagram} />
-              </div>
+              <ImageCard
+                bgImage={food2}
+                imgBtnAltText="instagram"
+                imgBtnSrc={instagram}
+                showImgBtn
+              />
             </div>
           </div>
           <div
@@ -184,9 +194,12 @@ class Community extends Component {
                   />
                 </div>
               </div>
-              <div className="sub-section-3">
-                <img alt="insta" src={instagram} />
-              </div>
+              <ImageCard
+                bgImage={food3}
+                imgBtnAltText="instagram"
+                imgBtnSrc={instagram}
+                showImgBtn
+              />
             </div>
           </div>
         </div>
