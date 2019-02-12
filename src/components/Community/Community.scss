@@ -10,7 +10,6 @@ $root: '.community';
 
   &-description {
     height: 300px;
-    background-color: #fff;
     font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
     display: flex;
     justify-content: flex-end;
@@ -39,7 +38,6 @@ $root: '.community';
     // food-section-1
     &-1 {
       margin-top: 80px;
-      background-color: #fff;
       background-image:
       url('./../../assets/images/bg-detail.png'),
       url('./../../assets/images/detail01.png');
@@ -57,7 +55,6 @@ $root: '.community';
 
     // food-section-2
     &-2 {
-      background-color: #fff;
       background-image: url('./../../assets/images/detail03.png');
       background-repeat: no-repeat;
       background-position: bottom 5px left 15%;
@@ -71,21 +68,8 @@ $root: '.community';
       }
     }
 
-    // food-section-2-about
-    &-2-about {
-      background-color: #fff;
-      font-family: 'Gill Sans', 'roboto', sans-serif;
-    }
-
-    // food-section-3-about
-    &-3-about {
-      background-color: #fff;
-      font-family: 'Gill Sans', 'roboto', sans-serif;
-    }
-
     // food-section-3
     &-3 {
-      background-color: #fff;
       background-repeat: no-repeat;
       background-position: bottom 5px left 15%;
 
