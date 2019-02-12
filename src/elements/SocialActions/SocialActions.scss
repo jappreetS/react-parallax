@@ -1,0 +1,12 @@
+.action {
+  display: flex;
+  img {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }  
+  .number {
+    font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+    font-size: 15px;
+  }
+}

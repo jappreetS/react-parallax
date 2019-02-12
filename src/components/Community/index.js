@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 
 import Button from '../../elements/Button';
 import Label from '../../elements/Label';
+import SocialActions from '../../elements/SocialActions';
+
 import instagram from './../../assets/images/instagram-btn.png';
 import comment from './../../assets/images/comment.svg';
 import like from './../../assets/images/like.svg';
+
 import './Community.scss';
 
 class Community extends Component {
@@ -49,15 +52,17 @@ class Community extends Component {
                   classNames="sub-section-tag"
                   text="@taylormillerphoto"
                 />
-                <div className="feedback">
-                  <div className="action">
-                    <img alt="comment" src={comment} />
-                    <Label classNames="feedback-number" text="60"/>
-                  </div>
-                  <div className="action">
-                    <img alt="like" src={like} />
-                    <Label classNames="feedback-number" text="14.7K"/>
-                  </div>
+                <div className="social-actions">
+                  <SocialActions
+                    altText="comment"
+                    iconSrc={comment}
+                    text="60"
+                  />
+                  <SocialActions
+                    altText="like"
+                    iconSrc={like}
+                    text="14.7K"
+                  />
                 </div>
               </div>
             </div>
@@ -86,15 +91,17 @@ class Community extends Component {
                   classNames="sub-section-tag"
                   text="@foodwithmichel] #lovefood"
                 />
-                <div className="feedback">
-                  <div className="action">
-                    <img alt="comment" src={comment} />
-                    <Label classNames="feedback-number" text="789" />
-                  </div>
-                  <div className="action">
-                    <img alt="like" src={like} />
-                    <Label classNames="feedback-number" text="99.7K" />
-                  </div>
+                <div className="social-actions">
+                  <SocialActions
+                    altText="comment"
+                    iconSrc={comment}
+                    text="789"
+                  />
+                  <SocialActions
+                    altText="like"
+                    iconSrc={like}
+                    text="99.7K"
+                  />
                 </div>
               </div>
               <div className="sub-section-2">
@@ -164,15 +171,17 @@ class Community extends Component {
                   classNames="sub-section-tag"
                   text="(@jeepneynyc)"
                 />
-                <div className="feedback">
-                  <div className="action">
-                    <img alt="comment" src={comment} />
-                    <Label classNames="feedback-number" text="152" />
-                  </div>
-                  <div className="action">
-                    <img alt="like" src={like} />
-                    <Label classNames="feedback-number" text="18.2K" />
-                  </div>
+                <div className="social-actions">
+                  <SocialActions
+                    altText="comment"
+                    iconSrc={comment}
+                    text="152"
+                  />
+                  <SocialActions
+                    altText="like"
+                    iconSrc={like}
+                    text="18.2K"
+                  />
                 </div>
               </div>
               <div className="sub-section-3">
