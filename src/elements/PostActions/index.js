@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Label from '../Label';
-import './SocialActions.scss';
 
-const SocialActions = ({
+import './PostActions.scss';
+
+const PostActions = ({
   altText,
   iconSrc,
   text
@@ -15,4 +16,4 @@ const SocialActions = ({
     </div>
   )
 
-export default SocialActions;
+export default PostActions;

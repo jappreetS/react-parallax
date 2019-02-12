@@ -52,30 +52,6 @@ $root: '.community';
           height: 100%;
           width: 100%;
         }
-
-        &-2 {
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          background-color: #fff;
-          position: relative;
-        }
-
-        &-title {
-          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
-          font-size: 22px;
-          padding: 10px 5px;
-        }
-        
-        &-description, &-tag {
-          font-family: 'Gill Sans', 'roboto', sans-serif;
-          color: #5a5a5a;
-          font-size: 14px;
-          padding: 2px 5px;
-        }
       }
     }
 
@@ -91,30 +67,6 @@ $root: '.community';
           display: flex;
           height: 100%;
           width: 100%;
-        }
-
-        &-1 {
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          background-color: #fff;
-          position: relative;
-        }
-
-        &-title {
-          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
-          font-size: 22px;
-          padding: 10px 5px;
-        }
-        
-        &-description, &-tag {
-          font-family: 'Gill Sans', 'roboto', sans-serif;
-          color: #5a5a5a;
-          font-size: 14px;
-          padding: 2px 5px;
         }
       }
     }
@@ -156,30 +108,6 @@ $root: '.community';
           display: flex;
           height: 100%;
           width: 100%;
-        }
-
-        &-2 {
-          height: 70%;
-          width: 45%;
-          margin: 5% 3%;
-          border: 15px solid #fff;
-          box-shadow: 5px 20px 15px 5px rgba(0, 0, 0, 0.12),
-          5px 2px 5px 0 rgba(0, 0, 0, 0.08);
-          background-color: #fff;
-          position: relative;
-        }
-
-        &-title {
-          font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
-          font-size: 22px;
-          padding: 10px 5px;
-        }
-        
-        &-description, &-tag {
-          font-family: 'Gill Sans', 'roboto', sans-serif;
-          color: #5a5a5a;
-          font-size: 14px;
-          padding: 2px 5px;
         }
       }
     }

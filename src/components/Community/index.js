@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Button from '../../elements/Button';
 import Label from '../../elements/Label';
 import ImageCard from '../../elements/ImageCard';
-import SocialActions from '../../elements/SocialActions';
+import PostDetail from '../../elements/PostDetail';
 
 import food1 from './../../assets/images/food-1.jpg';
 import food2 from './../../assets/images/food-2.jpg';
@@ -45,33 +45,18 @@ class Community extends Component {
                 imgBtnSrc={instagram}
                 showImgBtn
               />
-              <div className="sub-section-2">
-                <Label
-                  classNames="sub-section-title"
-                  text="@buzzfeedfood"
-                />
-                <Label
-                  classNames="sub-section-description"
-                  text="It's taco Tuesday! These tacos from @jesseszewczyk have no
-                  added sugars and are SO good. Find the recipe from the link in our bio!   :"
-                />
-                <Label
-                  classNames="sub-section-tag"
-                  text="@taylormillerphoto"
-                />
-                <div className="social-actions">
-                  <SocialActions
-                    altText="comment"
-                    iconSrc={comment}
-                    text="60"
-                  />
-                  <SocialActions
-                    altText="like"
-                    iconSrc={like}
-                    text="14.7K"
-                  />
-                </div>
-              </div>
+              <PostDetail
+                postTitleText="@buzzfeedfood"
+                postDescriptionText="It's taco Tuesday! These tacos from @jesseszewczyk have no
+                  added sugars and are SO good. Find the recipe from the link in our bio! :"
+                postTagText="@taylormillerphoto"
+                commentAltText="comment"
+                commentIconSrc={comment}
+                commentCount="60"
+                likeAltText="like"
+                likeIconSrc={like}
+                likeCount="14.7K"
+              />
             </div>
           </div>
         </div>
@@ -84,33 +69,18 @@ class Community extends Component {
             className="community-food-section-2 col-6"
           >
             <div className="sub-section-container">
-              <div className="sub-section-1">
-                <Label
-                  classNames="sub-section-title"
-                  text="@love_food"
-                />
-                <Label
-                  classNames="sub-section-description"
-                  text="Waffle sticks in Copenhagen! Milk Chocolate with sprinkles,
+              <PostDetail
+                postTitleText="@love_food"
+                postDescriptionText="Waffle sticks in Copenhagen! Milk Chocolate with sprinkles,
                   dark chocolate with coconut and milk chocolate with peanuts! [  :"
-                />
-                <Label
-                  classNames="sub-section-tag"
-                  text="@foodwithmichel] #lovefood"
-                />
-                <div className="social-actions">
-                  <SocialActions
-                    altText="comment"
-                    iconSrc={comment}
-                    text="789"
-                  />
-                  <SocialActions
-                    altText="like"
-                    iconSrc={like}
-                    text="99.7K"
-                  />
-                </div>
-              </div>
+                postTagText="@foodwithmichel] #lovefood"
+                commentAltText="comment"
+                commentIconSrc={comment}
+                commentCount="789"
+                likeAltText="like"
+                likeIconSrc={like}
+                likeCount="99.7K"
+              />
               <ImageCard
                 bgImage={food2}
                 imgBtnAltText="instagram"
@@ -168,32 +138,17 @@ class Community extends Component {
             className="community-food-section-3 col-6"
           >
             <div className="sub-section-container">
-              <div className="sub-section-2">
-                <Label
-                  classNames="sub-section-title"
-                  text="@buzzfeedfood"
-                />
-                <Label
-                  classNames="sub-section-description"
-                  text="Getting into long weekend mode like #pancitpalabok"
-                />
-                <Label
-                  classNames="sub-section-tag"
-                  text="(@jeepneynyc)"
-                />
-                <div className="social-actions">
-                  <SocialActions
-                    altText="comment"
-                    iconSrc={comment}
-                    text="152"
-                  />
-                  <SocialActions
-                    altText="like"
-                    iconSrc={like}
-                    text="18.2K"
-                  />
-                </div>
-              </div>
+              <PostDetail
+                postTitleText="@buzzfeedfood"
+                postDescriptionText="Getting into long weekend mode like #pancitpalabok"
+                postTagText="(@jeepneynyc)"
+                commentAltText="comment"
+                commentIconSrc={comment}
+                commentCount="152"
+                likeAltText="like"
+                likeIconSrc={like}
+                likeCount="18.2K"
+              />
               <ImageCard
                 bgImage={food3}
                 imgBtnAltText="instagram"
