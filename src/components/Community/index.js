@@ -95,9 +95,9 @@ class Community extends Component {
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000"
             data-aos-easing="linear"
-            className="community-food-section-2-about col-6"
+            className="col-6"
           >
-            <div className="sub-section-container col-6">
+            <div className="col-6">
               <AboutRecipe
                 aboutRecipeText="Ut enim ad minim veniam, quis
                 nostrud exercitation ullamco laboris
@@ -114,9 +114,9 @@ class Community extends Component {
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000"
             data-aos-easing="linear"
-            className="community-food-section-3-about col-6"
+            className="col-6"
           >
-            <div className="sub-section-container col-6">
+            <div className="col-6">
               <AboutRecipe
                 aboutRecipeText="Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit, sed do

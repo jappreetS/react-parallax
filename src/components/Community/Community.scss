@@ -32,9 +32,10 @@ $root: '.community';
   }
 
   &-food-section {
-    &-1, &-2, &-3, &-2-about {
+    &-1, &-2, &-3 {
       height: 300px;
     }
+    
     // food-section-1
     &-1 {
       margin-top: 80px;
@@ -70,9 +71,6 @@ $root: '.community';
 
     // food-section-3
     &-3 {
-      background-repeat: no-repeat;
-      background-position: bottom 5px left 15%;
-
       .sub-section {
         &-container {
           display: flex;
