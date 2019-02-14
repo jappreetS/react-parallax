@@ -1,0 +1,29 @@
+.map-container {
+  position: relative;
+  .map {
+    height: 465px;
+  }
+
+  .location {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    padding-bottom: 5px;
+    &-title {
+      margin-top: -25px;
+      font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+      font-size: 60px;
+      text-align: center;
+    }
+    &-text {
+      font-family: 'Gill Sans', 'roboto', sans-serif;
+      color: #5e5e5e;
+      font-size: 14px;
+      padding: 0 12px;
+      line-height: 1.4;
+    }
+  }
+}
