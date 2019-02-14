@@ -15,15 +15,15 @@ class Map extends Component {
   }
 
   initMap() {
-    var myLatlng = { lat: 51.512501, lng: -0.127120 };
+    const myLatlng = { lat: 51.512501, lng: -0.127120 };
 
-    var map = new window.google.maps.Map(document.getElementById('map'), {
+    const map = new window.google.maps.Map(document.getElementById('map'), {
       zoom: 14,
       center: myLatlng,
       styles: [{ "featureType": "all", "elementType": "geometry.fill", "stylers": [{ "lightness": "-100" }, { "color": "#ffdac9" }] }, { "featureType": "poi", "elementType": "geometry.fill", "stylers": [{ "visibility": "on" }, { "color": "#ffcab1" }] }, { "featureType": "poi", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "poi.park", "elementType": "geometry.fill", "stylers": [{ "color": "#ffcab1" }] }, { "featureType": "road", "elementType": "geometry", "stylers": [{ "lightness": 100 }, { "visibility": "simplified" }] }, { "featureType": "road", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "transit.line", "elementType": "geometry", "stylers": [{ "visibility": "on" }, { "lightness": 700 }] }, { "featureType": "water", "elementType": "all", "stylers": [{ "color": "#92e1dd" }] }]
     });
 
-    var marker = new window.google.maps.Marker({
+    const marker = new window.google.maps.Marker({
       position: myLatlng,
       map: map,
       title: 'Click to zoom'
