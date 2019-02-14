@@ -9,7 +9,7 @@ const Button = ({
 }) =>
   (
     <button
-      className={filled ? `primary` : `secondary ${showBorder ? null : 'border'}`}
+      className={filled ? `primary` : `secondary${showBorder ? '' : ' border'}`}
     >
       {text}
     </button>
