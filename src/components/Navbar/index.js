@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 import './Navbar.scss';
 
@@ -9,10 +8,10 @@ class Navbar extends Component {
       <nav id="navbar-container" className="navbar-container text-uppercase">
         <ul>
           <li className="logo">Logo</li>
-          <li><Link to="#about">About</Link></li>
-          <li><Link to="#community">Community</Link></li>
-          <li>Location</li>
-          <li>Our Menu</li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#community">Community</a></li>
+          <li><a href="#map">Location</a></li>
+          <li><a href="#our-menu">Our Menu</a></li>
           <li>Recipes</li>
           <div className="push-right">
             <li>Contact</li>
