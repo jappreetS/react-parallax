@@ -1,10 +1,20 @@
-.primary {
-  border: none;
+.primary, .secondary {
   text-decoration: none;
   text-transform: uppercase;
   font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  border: none;
   background-color: #fddbc6;
   font-size: 20px;
   padding: 7px 8px 0;
-  margin-top: 5px;
+}
+
+.secondary {
+  border: 2px solid #fddbc6;
+  font-size: 18px;
+  padding: 7px 15px 0;
 }
