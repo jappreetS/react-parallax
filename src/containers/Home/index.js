@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react';
 
 import Navbar from '../../components/Navbar';
+import SideContainer from '../../components/SideContainer';
 import About from './../../components/About';
 import Community from '../../components/Community';
 import Map from '../../components/Map';
@@ -13,6 +14,7 @@ class Home extends Component {
     return (
       <Fragment>
         <Navbar />
+        <SideContainer />
         <About />
         <Community />
         <Map />
