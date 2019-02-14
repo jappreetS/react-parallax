@@ -6,6 +6,7 @@ $root: '.community';
   &-container {
     padding-top: 140px;
     padding: 5% 10% 10%;
+    overflow: hidden;
 
     .row {
       &-2, &-3 {

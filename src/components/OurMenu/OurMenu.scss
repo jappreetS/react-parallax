@@ -8,6 +8,7 @@ $root: '.our-menu';
     padding-top: 140px;
     padding: 5% 10% 10%;
     position: relative;
+    overflow: hidden;
     
     // title section
     .row {
@@ -55,7 +56,7 @@ $root: '.our-menu';
         //   &::after {
         //     content: "";
         //     width: 2px;
-        //     height: 140%;
+        //     height: 100%;
         //     background-color: #ddd;
         //     position: absolute;
         //     top: 0;
@@ -68,11 +69,12 @@ $root: '.our-menu';
 
 [data-aos='slide-down'].menu-section {
     &-2 {
-      -webkit-transform: translate3d(0, -40%, 0);
-      transform: translate3d(0, -40%, 0);
+      -webkit-transform: translate3d(0, -120%, 0);
+      transform: translate3d(0, -120%, 0);
+      
     }
     &-4 {
-      -webkit-transform: translate3d(0, -28.5%, 0);
-      transform: translate3d(0, -28.5%, 0);
+      -webkit-transform: translate3d(0, -130%, 0);
+      transform: translate3d(0, -130%, 0);
     }
 }

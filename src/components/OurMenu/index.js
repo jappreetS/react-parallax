@@ -22,10 +22,7 @@ class OurMenu extends Component {
         <div className="row-2 display-flex col-12">
           <div
             data-aos="slide-up"
-            // data-aos-anchor-placement="top-bottom"
-            data-aos-duration="700"
-            // data-aos-easing="linear"
-            // data-offset-top="0"
+            data-aos-duration="1500"
             className="col-3 menu-section-1"
           >
             <Label classNames="section-title text-uppercase" text="Starters" />
@@ -50,10 +47,7 @@ class OurMenu extends Component {
           </div>
           <div
             data-aos="slide-down"
-            // data-aos-anchor-placement="top-bottom"
-            data-aos-duration="700"
-            // data-aos-easing="linear"
-            // data-offset-top="0"
+            data-aos-duration="1500"
             className="col-3 menu-section-2 right-border"
           >
             <Label classNames="section-title text-uppercase" text="Main Courses" />
@@ -74,10 +68,7 @@ class OurMenu extends Component {
           </div>
           <div
             data-aos="slide-up"
-            // data-aos-anchor-placement="top-bottom"
-            data-aos-duration="700"
-            // data-aos-easing="linear"
-            // data-offset-top="0"
+            data-aos-duration="1500"
             className="col-3 menu-section-3 right-border"
           >
             <Label classNames="section-title text-uppercase" text="Sides" />
@@ -96,10 +87,7 @@ class OurMenu extends Component {
           </div>
           <div
             data-aos="slide-down"
-            // data-aos-anchor-placement="top-bottom"
-            data-aos-duration="700"
-            // data-aos-easing="linear"
-            // data-offset-top="0"
+            data-aos-duration="1500"
             className="col-3 menu-section-4 right-border"
           >
             <Label classNames="section-title text-uppercase" text="Desserts" />
