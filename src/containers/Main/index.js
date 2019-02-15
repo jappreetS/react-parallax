@@ -5,15 +5,14 @@ import {
   Switch,
 } from 'react-router-dom';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Home from './../Home';
 
 class Main extends Component {
   constructor() {
     super();
-    AOS.init(({
-      duration: 1000,
-    }));
+    AOS.init();
   }
 
   render() {
