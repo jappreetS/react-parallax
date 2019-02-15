@@ -7,6 +7,32 @@ import MenuItem from '../../elements/MenuItem';
 import './OurMenu.scss';
 
 class OurMenu extends Component {
+  componentDidMount() {
+    window.addEventListener('scroll', () => {
+      const ourMenu = document.getElementById('our-menu');
+      if (ourMenu) {
+        const first = document.getElementById('first');
+        const second = document.getElementById('second');
+        const third = document.getElementById('third');
+        const fourth = document.getElementById('fourth');
+        const firstSibling = first.previousSibling;
+        const secondSibling = second.previousSibling;
+        const thirdSibling = third.previousSibling;
+        const fourthSibling = fourth.previousSibling;
+        if (ourMenu.getBoundingClientRect().y <= 0) {
+          firstSibling.classList.remove('active');
+          secondSibling.classList.remove('active');
+          thirdSibling.classList.remove('active');
+          fourthSibling.classList.add('active');
+          first.innerText = "";
+          second.innerText = "";
+          third.innerText = "";
+          fourth.innerText = "04";
+        }
+      }
+    })
+  }
+
   render() {
     return (
       <div id="our-menu" className="our-menu-container">

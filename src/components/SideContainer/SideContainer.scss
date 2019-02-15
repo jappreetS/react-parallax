@@ -3,6 +3,43 @@
   height: 100vh;
   position: absolute;
 
+  .left-section {
+    position: fixed;
+    top: 39%;
+    left: 30px;
+    z-index: 1;
+    background-color: transparent;
+
+    hr.line {
+      border: 1px solid #464341;
+      width: 15px;
+      margin: 22px 0;
+      position: relative;
+    }
+    hr.line.active {
+      width: 30px;
+    }
+
+    span {
+      position: absolute;
+      left: 1px;
+      font-family: 'DIN Condensed Bold', 'roboto', sans-serif;
+      font-size: 18px;
+    }
+    span#first {
+      top: 15px;
+    }
+    span#second {
+      top: 38px;
+    }
+    span#third {
+      top: 63px;
+    }
+    span#fourth {
+      top: 87px;
+    }
+  }
+
   .right-section {
     position: fixed;
     top: calc(50% - 37px);

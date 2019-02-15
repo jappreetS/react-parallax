@@ -16,6 +16,32 @@ import like from './../../assets/images/like.svg';
 import './Community.scss';
 
 class Community extends Component {
+  componentDidMount() {
+    window.addEventListener('scroll', () => {
+      const community = document.getElementById('community');
+      if (community) {
+        const first = document.getElementById('first');
+        const second = document.getElementById('second');
+        const third = document.getElementById('third');
+        const fourth = document.getElementById('fourth');
+        const firstSibling = first.previousSibling;
+        const secondSibling = second.previousSibling;
+        const thirdSibling = third.previousSibling;
+        const fourthSibling = fourth.previousSibling;
+        if (community.getBoundingClientRect().y <= 0) {
+          firstSibling.classList.remove('active');
+          secondSibling.classList.add('active');
+          thirdSibling.classList.remove('active');
+          fourthSibling.classList.remove('active');
+          first.innerText = "";
+          second.innerText = "02";
+          third.innerText = "";
+          fourth.innerText = "";
+        }
+      }
+    })
+  }
+
   render() {
     return (
       <div id="community" className="community-container">

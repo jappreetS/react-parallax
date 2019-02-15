@@ -12,6 +12,30 @@ class Map extends Component {
   }
   componentDidMount() {
     this.initMap();
+
+    window.addEventListener('scroll', () => {
+      const map = document.getElementById('map');
+      if (map) {
+        const first = document.getElementById('first');
+        const second = document.getElementById('second');
+        const third = document.getElementById('third');
+        const fourth = document.getElementById('fourth');
+        const firstSibling = first.previousSibling;
+        const secondSibling = second.previousSibling;
+        const thirdSibling = third.previousSibling;
+        const fourthSibling = fourth.previousSibling;
+        if (map.getBoundingClientRect().y <= 0) {
+          firstSibling.classList.remove('active');
+          secondSibling.classList.remove('active');
+          thirdSibling.classList.add('active');
+          fourthSibling.classList.remove('active');
+          first.innerText = "";
+          second.innerText = "";
+          third.innerText = "03";
+          fourth.innerText = "";
+        }
+      }
+    })
   }
 
   initMap() {
