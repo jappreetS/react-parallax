@@ -1,5 +1,5 @@
 # react-parallax
-React Application written in React and React-Router with CSS Parallax effect
+React Application written in React and React Router with CSS Parallax effect
 
 Live on Heroku: https://agile-shelf-49894.herokuapp.com
 
